@@ -64,6 +64,8 @@ const checkCards = () => {
 const revealCard = ({ target }) => {
   if (target.parentNode.className.includes("reveal-card")) return;
 
+  if (firstCard && secondCard) return;
+
   if (firstCard === "") {
     target.parentNode.classList.add("reveal-card");
     firstCard = target.parentNode;
