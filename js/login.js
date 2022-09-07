@@ -16,8 +16,7 @@ const handleSubmit = (event) => {
 
   localStorage.setItem("player", input.value);
   window.location =
-    // "https://raphaelbaccega.github.io/memory-game/pages/pre-game.html";
-    "http://127.0.0.1:5500/pages/pre-game.html";
+    "https://raphaelbaccega.github.io/memory-game/pages/pre-game.html";
 };
 
 input.addEventListener("input", validateInput);
