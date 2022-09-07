@@ -42,7 +42,7 @@ body {
 
 .infos label {
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 400;
 }
 
@@ -51,7 +51,7 @@ body {
   border-radius: 4px;
   border: none;
   outline: none;
-  font-size: 20px;
+  font-size: 1.25rem;
   margin-bottom: 25px;
 }
 
@@ -69,4 +69,22 @@ body {
   background-color: #eee;
   color: #aaa;
   cursor: default;
+}
+
+@media (max-width: 600px) {
+  .content {
+    max-width: 300px;
+  }
+  .content-image {
+    width: 100%;
+  }
+  .content-infos h1 {
+    font-size: 1.5rem;
+  }
+  .infos input {
+    padding: 5px;
+  }
+  .infos button {
+    padding: 5px;
+  }
 }

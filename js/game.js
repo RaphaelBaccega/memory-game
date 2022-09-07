@@ -13,10 +13,8 @@ const characters = [
   "among-cyan",
   "among-green",
   "among-orange",
-  "among-pink",
   "among-purple",
   "among-red",
-  "among-yellow",
 ];
 
 const createElement = (tag, className) => {
@@ -32,7 +30,7 @@ let secondCard = "";
 const checkEndGame = () => {
   const disabledCards = document.querySelectorAll(".disabled-card");
 
-  if (disabledCards.length === 20) {
+  if (disabledCards.length === 16) {
     clearInterval(this.loop);
     body.classList.add("win");
     section.classList.add("win");
@@ -119,6 +117,6 @@ window.onload = () => {
   spanPlayer.innerHTML = localStorage.getItem("player");
   spanPlayerEnd.innerHTML = localStorage.getItem("player");
 
-  startTimer();
+  // startTimer();
   loadGame();
 };
