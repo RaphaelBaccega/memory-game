@@ -4,7 +4,7 @@
 
 Projeto realizado para colocar em prática principalmente meus conhecimentos em JavaScript, onde pude utlizar funções, eventos e manipular o HTML atráves do DOM. Além de praticar meu HTML e CSS para que seja responsivo e agradável ao usuário.
 
-![Video](./gif/video-memory-game.gif)
+![Preview Video](./video/memory-game.gif)
 
 ## 📚 Aprendizado
 
